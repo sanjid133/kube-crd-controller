@@ -1,0 +1,14 @@
+apiVersion: democontroller.k8s.io/v1
+kind: SecDb
+metadata:
+  name: example-secdb
+spec:
+  secretType: sanjid
+  info:
+  - secretName: abc
+    data:
+      username: xyz
+      password: password
+  - secretName: vua
+    data:
+      token: tokentoken

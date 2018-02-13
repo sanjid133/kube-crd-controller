@@ -1,0 +1,16 @@
+package: github.com/sanjid133/crd-controller
+import:
+- package: github.com/appscode/go
+  subpackages:
+  - log/golog
+- package: github.com/spf13/cobra
+- package: github.com/spf13/pflag
+  repo: https://github.com/appscode/pflag.git
+  vcs: git
+  version: master
+- package: k8s.io/apimachinery
+  version: kubernetes-1.9.0
+- package: k8s.io/client-go
+  version: v6.0.0
+- package: k8s.io/code-generator
+  version: dac22934f1bf35605309431df35132fc2811bc41
